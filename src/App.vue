@@ -7,7 +7,7 @@
             class="mx-auto pa-5"
             max-width="1000"
           >
-            <h2 class="mb-5">“NR Box Folder” Block</h2>
+            <h2 class="mb-5">“Azure Blob File Explorer</h2>
 
             <v-text-field
               v-model="search"
