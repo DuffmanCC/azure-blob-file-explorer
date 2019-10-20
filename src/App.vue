@@ -14,7 +14,7 @@
               label="Search files and folders"
               outlined
               clearable
-              @keypress="searchFiles()"
+              @keyup="searchFiles()"
               @click:clear="clearSearch()"   
             >
             </v-text-field>
@@ -63,7 +63,7 @@
     },
 
     computed: {
-      ...mapState(['items', 'itemsAll', 'breadcrumbs'])
+      ...mapState(['items'])
     },
 
     methods: {

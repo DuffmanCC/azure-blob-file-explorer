@@ -1,4 +1,3 @@
-import dotenv from 'dotenv'
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
@@ -7,8 +6,6 @@ import axios from 'axios'
 import azureV2 from "azure-storage"
 import * as azureV10 from "@azure/storage-blob" // not using this version
 import utils from './utils/functions'
-
-dotenv.config()
 
 window.axios = axios;
 Vue.config.productionTip = false

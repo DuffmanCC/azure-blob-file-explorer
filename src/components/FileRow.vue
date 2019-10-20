@@ -31,7 +31,7 @@
     props: ['item'],
 
     computed: {
-      ...mapState(['items', 'files'])
+      ...mapState(['files'])
     },
 
     methods: {
